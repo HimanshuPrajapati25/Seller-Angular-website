@@ -1,0 +1,79 @@
+<section class="py-2 product-section mt-2" *ngIf="productData">
+  <div class="container px-1 px-lg-2 my-2">
+    <div class="row gx-1 gx-lg-2 align-items-center">
+      <div class="col-md-3">
+        <img
+          class="card-img-top mb-2 mb-md-0"
+          [src]="productData.image"
+          alt="Product Image"
+        />
+      </div>
+      <div class="col-md-9">
+        <div class="small">{{ productData.id }}</div>
+        <h1 class="display-6 fw-bolder">{{ productData.name }}</h1>
+        <div class="fs-6">
+          Price:
+          <span class="text-decoration-line-through"
+            >${{ productData.price }}</span
+          >
+          <span class="ms-1">${{ productData.price }}</span>
+        </div>
+        <p
+          class="lead"
+          [style.backgroundColor]="productData.color"
+          class="color-box"
+        >
+          <span class="color-name">Color:</span> {{ productData.color }}
+        </p>
+        <p class="lead">Category: {{ productData.category }}</p>
+        <p class="lead">Description: {{ productData.description }}</p>
+        <div class="d-flex align-items-center mt-3">
+          <div class="quantity-controls d-flex">
+            <button
+              class="quantity-btn btn btn-dark"
+              (click)="decreaseQuantity()"
+            >
+              -
+            </button>
+            <input
+              class="form-control text-center quantity-input smaller-input"
+              type="number"
+              [value]="quantity"
+              readonly
+            />
+            <button
+              class="quantity-btn btn btn-dark"
+              (click)="increaseQuantity()"
+            >
+              +
+            </button>
+          </div>
+          <div class="button-group ms-3">
+            <button
+              class="btn btn-dark flex-shrink-0"
+              type="button"
+              *ngIf="!removeCarts"
+              (click)="addToCart()"
+            >
+              <i class="bi-cart-fill me-1"></i>
+              Add to cart
+            </button>
+            <button
+              *ngIf="removeCarts"
+              class="btn btn-dark flex-shrink-0"
+              type="button"
+              (click)="removeCart(productData.id)"
+            >
+              <i class="bi-cart-fill me-1"></i>
+              Remove to cart
+            </button>
+            <button class="btn btn-dark flex-shrink-0 ms-2" type="button">
+              <i class="bi-cart-fill me-1"></i>
+              Buy now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

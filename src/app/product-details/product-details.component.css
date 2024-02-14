@@ -1,0 +1,33 @@
+.product-section {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+}
+
+.product-section:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-section img {
+  max-width: 100%;
+}
+
+.color-box {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 8px;
+  border-radius: 3px;
+  color: white;
+  font-weight: bold;
+}
+
+.color-name {
+  margin-right: 0.5rem;
+}
+.smaller-input {
+  max-width: 3rem;
+  padding: 0.25rem;
+  font-size: 0.875rem;
+}
+
+/* Other styles remain the same */

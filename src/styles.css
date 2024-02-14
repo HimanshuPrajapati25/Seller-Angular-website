@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: "sans-serif";
+  margin: 0;
+  padding: 0;
+}
+/* .container {
+  margin-left: 4%;
+  margin-right: 4%; 
+ 
+} */
+.carousel-caption {
+  /* width: 100%; */
+  color: #c7724d;
+  background-color: rgba(0, 0, 0, 0.6); /* Dark overlay color */
+  z-index: 3;
+  border-radius: 5px;
+}

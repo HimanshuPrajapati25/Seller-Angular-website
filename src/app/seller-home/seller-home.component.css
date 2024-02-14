@@ -1,0 +1,38 @@
+/* styles.css */
+
+/* Add custom styling to the table */
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+/* Style the table headers */
+.custom-table th {
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #dee2e6;
+}
+
+/* Style the table rows */
+.custom-table td {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #dee2e6;
+}
+
+/* Alternate row coloring */
+.custom-table tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+/* Hover effect for rows */
+.custom-table tbody tr:hover {
+  background-color: #e0e0e0;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}

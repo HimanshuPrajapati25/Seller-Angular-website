@@ -1,0 +1,100 @@
+<div class="container">
+  <div class="signup-form" *ngIf="isToggle">
+    <h2 class="mb-3 text-center" style="color: blueviolet">User Sign Up</h2>
+    <form (ngSubmit)="onSingUp(userValue.value)" #userValue="ngForm">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          class="form-control"
+          id="name"
+          name="name"
+          ngModel
+          placeholder="Enten Name"
+          required
+          #name="ngModel"
+        />
+        <small *ngIf="!name.valid && name.touched">
+          <p>Name is required</p>
+        </small>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          class="form-control"
+          id="email"
+          name="email"
+          ngModel
+          placeholder="Enter Email"
+        />
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          class="form-control"
+          id="password"
+          name="password"
+          ngModel
+          placeholder="Enten Password"
+        />
+      </div>
+      <button type="submit" class="btn btn-primary mt-2">Sign Up</button>
+      <div class="form-group">
+        <a class="text-decoration-none" (click)="openLogin()"
+          >Already have Account?<span class="link" style="cursor: pointer"
+            >Click to login</span
+          ></a
+        >
+      </div>
+    </form>
+  </div>
+  <!-- Login area -->
+  <div class="signup-form login" *ngIf="!isToggle">
+    <h2 class="mb-3 text-center" style="color: blueviolet">User login</h2>
+    <p class="text-danger">{{ error }}</p>
+    <form (ngSubmit)="onLogin(userLogin.value)" #userLogin="ngForm">
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          class="form-control"
+          id="email"
+          name="email"
+          ngModel
+          placeholder="Enten Email"
+          #email="ngModel"
+          email=""
+          required
+        />
+        <small *ngIf="!email.valid && email.touched">
+          <p>Name is required</p>
+        </small>
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          class="form-control"
+          id="password"
+          name="password"
+          ngModel
+          placeholder="Enten Password"
+        />
+      </div>
+      <button type="submit" class="btn btn-primary mt-2">Login</button>
+      <div class="form-group">
+        <a class="text-decoration-none"
+          >Don't have Account?<span
+            class="link"
+            style="cursor: pointer"
+            (click)="openSignup()"
+            >Click to Singup</span
+          ></a
+        >
+      </div>
+    </form>
+  </div>
+</div>

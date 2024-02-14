@@ -1,0 +1,275 @@
+{
+  "seller": [
+    {
+      "name": "Himanshu",
+      "email": "h25p@test.com",
+      "password": "Hp@2519",
+      "id": 1
+    },
+    {
+      "name": "Himanshu",
+      "email": "lalit@test.com",
+      "password": "lalit@123",
+      "id": 2
+    },
+    {
+      "name": "Himanshu",
+      "email": "test@Test.com",
+      "password": "teat@123",
+      "id": 3
+    },
+    {
+      "name": "Himanshu",
+      "email": "h25p@gmail.com",
+      "password": "12345",
+      "id": 4
+    },
+    {
+      "name": "lalit",
+      "email": "lalit@lalit.com",
+      "password": "12345",
+      "id": 5
+    },
+    {
+      "name": "Himanshu",
+      "email": "test@Test.com",
+      "password": "12345",
+      "id": 6
+    },
+    {
+      "name": "ashish",
+      "email": "l@l.com",
+      "password": "12345",
+      "id": 7
+    },
+    {
+      "name": "ashish",
+      "email": "a@a.com",
+      "password": "12345",
+      "id": 8
+    }
+  ],
+  "product": [
+    {
+      "name": "i phone",
+      "category": "mobile",
+      "color": "black",
+      "image": "https://images.unsplash.com/photo-1663408536081-7721bb837ec6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aXBob25lJTIwMTQlMjBwcm98ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60",
+      "description": "good",
+      "price": 150000,
+      "id": 1
+    },
+    {
+      "name": "i phone 14",
+      "category": "mobile",
+      "color": "white",
+      "image": "https://images.unsplash.com/photo-1688958984993-4779fdd3b3d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGlwaG9uZSUyMDE0JTIwcHJvfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "description": "small and nice phone",
+      "price": "100000",
+      "id": 2
+    },
+    {
+      "name": "i phone 13",
+      "category": "mobile",
+      "color": "gray night",
+      "image": "https://images.unsplash.com/photo-1678533511793-3e4098b854e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aXBob25lJTIwMTQlMjBwcm98ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60",
+      "description": "looking good",
+      "price": 80000,
+      "id": 3
+    },
+    {
+      "name": "i phone 10 ",
+      "category": "mobile",
+      "color": "gray night",
+      "image": "https://images.unsplash.com/photo-1688958984993-4779fdd3b3d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGlwaG9uZSUyMDE0JTIwcHJvfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "description": "good",
+      "price": 59999,
+      "id": 4
+    },
+    {
+      "name": "i phone 14",
+      "category": "mobile",
+      "color": "black night",
+      "image": "https://images.unsplash.com/photo-1679538642399-323a55485780?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGlwaG9uZSUyMDE0JTIwcHJvfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "description": "IOS",
+      "price": 89000,
+      "id": 5
+    },
+    {
+      "name": "i phone 12 pro",
+      "category": "mobile",
+      "color": "white",
+      "image": "https://images.unsplash.com/photo-1624979641620-567353dab9f6?ixlib=rb-4.0.3&dpr=1&auto=format&fit=crop&w=200&q=60&crop=entropy",
+      "description": "IOS",
+      "price": 99999,
+      "id": 6
+    },
+    {
+      "name": "Nike Running shoes",
+      "category": "shoes",
+      "color": "Black",
+      "image": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bmlrZSUyMHNob2VzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "description": " Where style meets performance. With advanced tech, lightweight build, and durability, these boots offer top-notch comfort on the field. Elevate your game with Nike's signature blend of innovation and style.",
+      "price": 4999,
+      "id": 7
+    },
+    {
+      "name": "Nike Air Force",
+      "category": "shoes",
+      "color": "white",
+      "image": "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=465&q=80",
+      "description": "Iconic Nike Air Force: Timeless design, ultimate comfort. Elevate your style with the classic sneaker that's always on trend.",
+      "price": 3999,
+      "id": 8
+    },
+    {
+      "name": "Floating nike air jordan 1 mid",
+      "category": "shoes",
+      "color": "Red,White,Black",
+      "image": "https://images.unsplash.com/photo-1597045566677-8cf032ed6634?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+      "description": "Elevate your style with the Floating Nike Air Jordan 1 Mid. Iconic design meets modern comfort for a standout look.",
+      "price": 9999,
+      "id": 9
+    },
+    {
+      "name": "Addidas Leather on Concrete",
+      "category": "shoes",
+      "color": "dark white",
+      "image": "https://images.unsplash.com/photo-1512374382149-233c42b6a83b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80",
+      "description": " Urban edge meets timeless style. Stride confidently with the perfect blend of fashion and durability.",
+      "price": 8999,
+      "id": 10
+    },
+    {
+      "name": "Puma White Sneakers",
+      "category": "shoes",
+      "color": "white",
+      "image": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80",
+      "description": "A classic fusion of simplicity and versatility. Elevate your look with these iconic sneakers that effortlessly complement any outfit for a timeless style statement.",
+      "price": 5999,
+      "id": 11
+    },
+    {
+      "name": "White puma tshirt",
+      "category": "clothe",
+      "color": "white",
+      "image": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2hpcnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "description": "A timeless essential for every wardrobe. Versatile and effortlessly stylish, it's the cornerstone of casual comfort and endless outfit possibilities.",
+      "price": 999,
+      "id": 12
+    },
+    {
+      "name": "AEROREADY TRAINING LOGO GRAPHIC SHORT SLEEVE TEE",
+      "category": "clothe",
+      "color": "white",
+      "image": "https://assets.adidas.com/images/w_180,f_auto,q_auto,fl_lossy,c_fill,g_auto/21cc80fc4e644989aed6af12014288b1_9366/AEROREADY_Training_Logo_Graphic_Short_Sleeve_Tee_White_H44740_21_model.jpg",
+      "description": "Performance meets style. Stay cool and dry during workouts with its moisture-wicking fabric and sporty logo design. Elevate your training game.",
+      "price": 1399.5,
+      "id": 13
+    },
+    {
+      "name": "Nike",
+      "category": "clothe",
+      "color": "white",
+      "image": "https://assets.adidas.com/images/w_180,f_auto,q_auto,fl_lossy,c_fill,g_auto/21cc80fc4e644989aed6af12014288b1_9366/AEROREADY_Training_Logo_Graphic_Short_Sleeve_Tee_White_H44740_21_model.jpg",
+      "description": "Performance meets style. Stay cool and dry during workouts with its moisture-wicking fabric and sporty logo design. Elevate your training game.",
+      "price": 1399.5,
+      "id": 14
+    },
+    {
+      "name": "PUMA",
+      "category": "clothe",
+      "color": "white",
+      "image": "https://assets.adidas.com/images/w_180,f_auto,q_auto,fl_lossy,c_fill,g_auto/21cc80fc4e644989aed6af12014288b1_9366/AEROREADY_Training_Logo_Graphic_Short_Sleeve_Tee_White_H44740_21_model.jpg",
+      "description": "Performance meets style. Stay cool and dry during workouts with its moisture-wicking fabric and sporty logo design. Elevate your training game.",
+      "price": 1399.5,
+      "id": 15
+    }
+  ],
+  "user": [
+    {
+      "name": "Himanshu",
+      "email": "h25p@gmail.com",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "name": "Himanshu",
+      "email": "h25p@test.com",
+      "password": "12345",
+      "id": 2
+    }
+  ],
+  "CartData": [
+    {
+      "name": "Nike Running shoes",
+      "category": "shoes",
+      "color": "Black",
+      "image": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bmlrZSUyMHNob2VzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "description": " Where style meets performance. With advanced tech, lightweight build, and durability, these boots offer top-notch comfort on the field. Elevate your game with Nike's signature blend of innovation and style.",
+      "price": 4999,
+      "quantity": 1,
+      "productId": 7,
+      "userId": 2,
+      "id": 6
+    },
+    {
+      "name": "Nike Air Force",
+      "category": "shoes",
+      "color": "white",
+      "image": "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=465&q=80",
+      "description": "Iconic Nike Air Force: Timeless design, ultimate comfort. Elevate your style with the classic sneaker that's always on trend.",
+      "price": 3999,
+      "quantity": 1,
+      "productId": 8,
+      "userId": 2,
+      "id": 7
+    },
+    {
+      "name": "Floating nike air jordan 1 mid",
+      "category": "shoes",
+      "color": "Red,White,Black",
+      "image": "https://images.unsplash.com/photo-1597045566677-8cf032ed6634?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+      "description": "Elevate your style with the Floating Nike Air Jordan 1 Mid. Iconic design meets modern comfort for a standout look.",
+      "price": 9999,
+      "quantity": 1,
+      "productId": 9,
+      "userId": 2,
+      "id": 8
+    },
+    {
+      "name": "Addidas Leather on Concrete",
+      "category": "shoes",
+      "color": "dark white",
+      "image": "https://images.unsplash.com/photo-1512374382149-233c42b6a83b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80",
+      "description": " Urban edge meets timeless style. Stride confidently with the perfect blend of fashion and durability.",
+      "price": 8999,
+      "quantity": 1,
+      "productId": 10,
+      "userId": 2,
+      "id": 9
+    },
+    {
+      "name": "i phone 14",
+      "category": "mobile",
+      "color": "black night",
+      "image": "https://images.unsplash.com/photo-1679538642399-323a55485780?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGlwaG9uZSUyMDE0JTIwcHJvfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "description": "IOS",
+      "price": 89000,
+      "quantity": 1,
+      "productId": 5,
+      "userId": 2,
+      "id": 14
+    }
+  ],
+  "order": [
+    {
+      "email": "",
+      "address": "",
+      "detail": "",
+      "totalPrice": 94450,
+      "userId": 1,
+      "id": 1
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: gainsboro;
+}
+
+.nav h1 a {
+  color: blueviolet;
+  margin: 0;
+  font-size: 40px;
+}
+
+.nav ul {
+  display: inline-flex;
+  list-style: none;
+  /* margin: 0; */
+  margin-top: 10px;
+}
+.nav li {
+  padding-left: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: blueviolet;
+  font-size: 20px;
+}
+
+.nav li:hover {
+  background-color: rgb(215, 196, 233);
+  /* border: fuchsia; */
+}
+.nav-search {
+  position: relative;
+  display: flex;
+
+  align-items: center;
+  margin-top: 5px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.nav-search input {
+  width: 500px;
+  color: blueviolet;
+  border-right: 0;
+  border: 1px solid blueviolet;
+  height: 35px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.nav-search button {
+  color: blueviolet;
+  border: 1px solid blueviolet;
+  height: 35px;
+  background-color: white;
+  border-left: 0px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  padding: 0 10px;
+}
+
+.suggest-result {
+  position: absolute;
+  z-index: 10;
+  background-color: #fff;
+  width: 300px; /* Match the width of the input */
+  top: 40px;
+  border: 1px solid #ddd;
+  border-top: none;
+  border-radius: 0 0 5px 5px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.suggest-result ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.suggest-result li {
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+.suggest-result li:last-child {
+  border-bottom: none;
+}
+
+.suggest-result li a {
+  display: block;
+  padding: 5px;
+  color: blueviolet;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.suggest-result li a:hover {
+  background-color: #f5f5f5;
+}
+
+.suggest-result li a {
+  display: block;
+  padding: 5px;
+  color: blueviolet;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.suggest-result li a:hover {
+  background-color: #f5f5f5;
+}

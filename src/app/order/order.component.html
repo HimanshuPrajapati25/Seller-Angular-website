@@ -1,0 +1,35 @@
+<div class="container mt-5">
+  <h2 class="text-center">Product List</h2>
+  <table class="table table-bordered custom-table">
+    <thead>
+      <tr>
+        <th>Order</th>
+        <th>Order Id</th>
+        <th>Price</th>
+        <th>Status</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of orderData">
+        <td>
+          <img
+            class="img"
+            src="https://images.unsplash.com/photo-1597045566677-8cf032ed6634?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+            alt=""
+          />
+        </td>
+        <td>{{ item.id }}</td>
+        <td>{{ item.totalPrice }}</td>
+        <td><b> in proccess</b></td>
+        <td>
+          <button (click)="cancelOrder(item.id)" class="btn btn-danger">
+            Cancel order
+          </button>
+        </td>
+      </tr>
+
+      <!-- Add more rows as needed -->
+    </tbody>
+  </table>
+</div>

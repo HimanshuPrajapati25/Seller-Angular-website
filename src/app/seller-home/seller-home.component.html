@@ -1,0 +1,41 @@
+<div class="container mt-5">
+  <h2 class="text-center">Product List</h2>
+  <table class="table table-bordered custom-table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Image</th>
+        <th>Name</th>
+        <th>Category</th>
+        <th>Color</th>
+        <th>Description</th>
+        <th>Price</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let product of productList; let i = index">
+        <td>{{ i + 1 }}</td>
+        <td><img class="img" [src]="product.image" alt="" /></td>
+        <td>{{ product.name }}</td>
+        <td>{{ product.category }}</td>
+        <td>{{ product.color }}</td>
+        <td>{{ product.description.slice(0, 30) }}...</td>
+        <td>{{ product.price }}</td>
+        <td>
+          <fa-icon
+            style="cursor: pointer"
+            [icon]="icon"
+            (click)="onDelete(product.id)"
+          ></fa-icon>
+          <br class="" />
+          <a routerLink="/seller-update-product/{{ product.id }}"
+            ><fa-icon [icon]="editIcon"></fa-icon>
+          </a>
+        </td>
+      </tr>
+
+      <!-- Add more rows as needed -->
+    </tbody>
+  </table>
+</div>
